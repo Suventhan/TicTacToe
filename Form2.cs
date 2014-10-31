@@ -18,8 +18,6 @@ namespace Tic_Tac_Toe
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            //Form4 f4 = new Form4();
-            //f4.ShowDialog();
         }
 
         private void play_Click(object sender, EventArgs e)

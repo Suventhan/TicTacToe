@@ -29,20 +29,6 @@ namespace Tic_Tac_Toe
             player_2 = n2;
         }
 
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("By Suventhan", "About");
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form4 f4 = new Form4();
-            this.Hide();
-            f4.ShowDialog();
-            this.Close();
-        }
-       
-
         private void button_click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
